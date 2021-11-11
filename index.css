@@ -1,0 +1,31 @@
+
+.section1
+{
+  background-image: url("image/academy-banner.jpg");
+}
+.head
+{
+  font-size: 60px;
+}
+.back
+{   
+  background-color: #1e2531;
+  color: aqua;
+}
+.s2
+{
+  margin-left:-150px;
+}
+
+@media only screen and (max-width : 760px)
+{
+  .section1
+  {
+    background-image: url("");/*this is means if the screen size lesser than 576px the back ground image setted in fotsrt section will automatically removed/blacked, and also we can add another small image in the double qiotes*/
+    text-align: center;
+  }
+
+  .s2{
+    margin-left: 0;
+  }
+}
